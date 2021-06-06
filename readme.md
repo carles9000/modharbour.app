@@ -8,7 +8,7 @@ In this repository, you can find the latest versions of the mod and libraries, r
 You will find the following
 
 
-		mod					//	last modharbour version 					
+		mod				//	last modharbour version 					
 			Win64 version
 		lib			
 			Mercury			//	Mercury lib
