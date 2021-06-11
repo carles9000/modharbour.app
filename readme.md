@@ -10,6 +10,7 @@ You will find the following
 
 		mod				//	last modharbour version 					
 			Win64 version
+			mysql 			//	dll for mysql64. Put into /htdocs folder
 		lib			
 			Mercury			//	Mercury lib
 			TWeb			//	TWeb lib
