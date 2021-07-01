@@ -53,3 +53,7 @@
 #xcommand GET JWT <hData> OF <oController> => <hData> := <oController>:oMiddleware:GetDataJWT()
 #xcommand GET TOKEN <hData> OF <oController> => <hData> := <oController>:oMiddleware:GetDataToken()
 
+#xcommand CREATE JWT <cToken> OF <oController> [ WITH <hTokenData> ] [ TIME <nTime> ] => ;
+	<cToken> := <oController>:oMiddleware:SetAutenticationJWT( [<hTokenData>], [<nTime>] )
+#xcommand CREATE TOKEN <cToken> OF <oController> [ WITH <hTokenData> ] [ TIME <nTime> ] => ;
+	<cToken> := <oController>:oMiddleware:SetAutenticationToken( [<hTokenData>], [<nTime>] )	
